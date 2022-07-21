@@ -30,7 +30,3 @@ resource "aws_security_group" "allow_ssh1" {
     Name = "${var.project_name}-${var.env}-SG"
   }
 }
-
-
-}}}
-
