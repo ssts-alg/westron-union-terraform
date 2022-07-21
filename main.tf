@@ -19,6 +19,18 @@ module "networking" {
   subnet_cidrs = var.subnet_cidrs
   azs          = var.azs
 }
+  
+  
+module "networking" {
+  source       = "../terraform-modules-july/"
+  account      = var.account
+  env          = var.env
+  project_name = var.project_name
+  vpc_cidr     = var.vpc_cidr
+  vpc_tenancy  = var.vpc_tenancy
+  subnet_cidrs = var.subnet_cidrs
+  azs          = var.azs
+}
 
 
 module "networking" {
