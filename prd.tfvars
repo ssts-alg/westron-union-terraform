@@ -1,0 +1,11 @@
+account           = "380377972418"
+env               = "prd"
+project_name      = "westron-union"
+vpc_cidr          = "10.60.0.0/16"
+vpc_tenancy       = "default"
+subnet_cidrs      = ["10.60.0.0/25", "10.60.0.128/25"]
+azs               = ["us-east-1a", "us-east-1b"]
+ami               = "ami-065efef2c739d613b"
+instance_type     = "t3.medium"
+key_name          = "testkey"
+public_ip_address = true
