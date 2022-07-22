@@ -1,2 +1,5 @@
 credentials.txt
 creds
+*.tfvars
+ss*
+*sss*
