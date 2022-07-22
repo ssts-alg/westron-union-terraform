@@ -15,3 +15,5 @@ variable "ami" {}
 variable "instance_type" {}
 variable "key_name" {}
 variable "public_ip_address" {}
+
+variable "public_ip_address" {}
