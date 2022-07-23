@@ -1,4 +1,4 @@
-variable "region" {vah
+variable "region" {sdyfshgfs
   default = "us-east-1"
 }
 
