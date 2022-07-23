@@ -1,4 +1,4 @@
-variable "region" {
+variable "region" {vah
   default = "us-east-1"
 }
 
