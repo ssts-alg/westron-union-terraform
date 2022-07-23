@@ -3,4 +3,4 @@
 ### This is redme file
 
 
-**Note: ** This is only manual
+**Note:** This is only manual
